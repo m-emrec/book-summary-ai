@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:base_ap/config/theme/app_theme.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:toastification/toastification.dart';
 
 import 'config/routes/router.dart';
+import 'config/theme/app_theme.dart';
 
 part 'core/utils/init/core_init.dart';
 part 'core/utils/init/localization_init.dart';

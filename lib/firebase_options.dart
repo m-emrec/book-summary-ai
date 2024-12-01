@@ -50,21 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDdwfxi895rfnFqPQVZv95dgM0FnLppAYk',
-    appId: '1:124550634660:android:57096c8bb0a62324829a31',
-    messagingSenderId: '124550634660',
-    projectId: 'robotarm-d5ec0',
-    databaseURL: 'https://robotarm-d5ec0-default-rtdb.firebaseio.com',
-    storageBucket: 'robotarm-d5ec0.firebasestorage.app',
+    apiKey: 'AIzaSyBLl-vWIM_trOIAtz9l_sGvayTo6vckt1s',
+    appId: '1:988421440093:android:3bc0ef56cff0456d9703b4',
+    messagingSenderId: '988421440093',
+    projectId: 'photographer-sbook',
+    storageBucket: 'photographer-sbook.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCSq9xf3gQ8BA7O7J8OIXmNbF65gVs9puw',
-    appId: '1:124550634660:ios:03a6cbf39ea229da829a31',
-    messagingSenderId: '124550634660',
-    projectId: 'robotarm-d5ec0',
-    databaseURL: 'https://robotarm-d5ec0-default-rtdb.firebaseio.com',
-    storageBucket: 'robotarm-d5ec0.firebasestorage.app',
-    iosBundleId: 'com.example.baseAp',
+    apiKey: 'AIzaSyDfcR7PWKMrcWk0XtOoEHFqv_u4Qw3VNsk',
+    appId: '1:988421440093:ios:dd8a0f7b41de8bef9703b4',
+    messagingSenderId: '988421440093',
+    projectId: 'photographer-sbook',
+    storageBucket: 'photographer-sbook.firebasestorage.app',
+    iosBundleId: 'com.example.bookSummarizer',
   );
+
 }

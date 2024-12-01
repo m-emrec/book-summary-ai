@@ -1,4 +1,3 @@
-export 'package:base_ap/core/extensions/media_query_extension.dart';
 export 'package:easy_localization/easy_localization.dart';
 
 export 'package:flutter_markdown/flutter_markdown.dart';

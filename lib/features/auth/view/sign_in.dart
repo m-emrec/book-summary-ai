@@ -1,8 +1,9 @@
-import 'package:base_ap/core/constants/generated/assets.gen.dart';
 import 'package:flutter/material.dart';
 
+import '/core/constants/generated/assets.gen.dart';
 import '../mixins/sign_in_mixin.dart';
 import 'auth_barrel.dart';
+
 part 'widgets/dont_have_account.dart';
 
 ///

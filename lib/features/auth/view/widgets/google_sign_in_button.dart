@@ -1,4 +1,4 @@
-import 'package:base_ap/core/constants/generated/assets.gen.dart';
+import '/core/constants/generated/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lottie/lottie.dart';

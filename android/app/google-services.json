@@ -1,41 +1,21 @@
 {
   "project_info": {
-    "project_number": "124550634660",
-    "firebase_url": "https://robotarm-d5ec0-default-rtdb.firebaseio.com",
-    "project_id": "robotarm-d5ec0",
-    "storage_bucket": "robotarm-d5ec0.firebasestorage.app"
+    "project_number": "988421440093",
+    "project_id": "photographer-sbook",
+    "storage_bucket": "photographer-sbook.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:124550634660:android:57096c8bb0a62324829a31",
+        "mobilesdk_app_id": "1:988421440093:android:3bc0ef56cff0456d9703b4",
         "android_client_info": {
-          "package_name": "com.example.base"
+          "package_name": "com.example.book_summarizer"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDdwfxi895rfnFqPQVZv95dgM0FnLppAYk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:124550634660:android:48640a4ef75c8183829a31",
-        "android_client_info": {
-          "package_name": "com.example.basic_robot_app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDdwfxi895rfnFqPQVZv95dgM0FnLppAYk"
+          "current_key": "AIzaSyBLl-vWIM_trOIAtz9l_sGvayTo6vckt1s"
         }
       ],
       "services": {

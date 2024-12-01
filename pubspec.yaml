@@ -1,4 +1,4 @@
-name: base_ap
+name: book_summary_ai
 description: "A new Flutter project."
 publish_to: 'none'
 
@@ -61,6 +61,7 @@ dependencies:
   equatable: ^2.0.7
   mockito: ^5.4.4
   firebase_auth_mocks: ^0.14.1
+  firebase_vertexai: ^1.0.3
   
 
 dev_dependencies:

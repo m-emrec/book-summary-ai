@@ -1,6 +1,6 @@
 {
-    "name": "base_ap",
-    "short_name": "base_ap",
+    "name": "book_summary_ai",
+    "short_name": "book_summary_ai",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
