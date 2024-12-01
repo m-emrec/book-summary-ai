@@ -1,0 +1,84 @@
+name: base_ap
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  ### Firebase
+  # For Firebase initialization. -> https://pub.dev/packages/firebase_core
+  firebase_core: ^3.1.1
+  # For storing storing nfc tag details. -> https://pub.dev/packages/firebase_database
+  firebase_database: ^11.1.6
+  # For storing item data in Firestore. -> https://pub.dev/packages/cloud_firestore
+  cloud_firestore: ^5.3.0
+  # For Authentication. -> https://pub.dev/packages/firebase_auth
+  firebase_auth: ^5.3.1
+  # For storing images. -> https://pub.dev/packages/firebase_storage
+  firebase_storage: 
+
+  ## State management -> https://pub.dev/packages/flutter_riverpod
+  flutter_riverpod: ^2.5.1
+
+  # for easy debugging -> https://pub.dev/packages/logger
+  logger: ^2.3.0
+
+  # navigation
+  # for navigation -> https://pub.dev/packages/go_router
+  go_router: ^14.3.0
+
+  # UI related packages
+  #  https://pub.dev/packages/gap
+  gap: ^3.0.1
+  # for toast messages -> https://pub.dev/packages/toastification
+  toastification: ^2.3.0
+  # for skeleton loading -> https://pub.dev/packages/skeletonizer
+  skeletonizer: ^1.4.2
+  # https://pub.dev/packages/google_fonts
+  google_fonts: ^6.2.1
+  # for lottie animations -> https://pub.dev/packages/lottie
+  lottie: ^3.1.2
+  # for markdown support -> https://pub.dev/packages/flutter_markdown 
+  flutter_markdown: ^0.7.3+2
+  
+  # for email validation -> https://pub.dev/packages/email_validator
+  email_validator: ^3.0.0
+  # for google sign in -> https://pub.dev/packages/google_sign_in
+  google_sign_in: ^6.2.1
+  # for camera usage  -> https://pub.dev/packages/image_picker
+  image_picker: ^1.1.2
+  # for image caching -> https://pub.dev/packages/cached_network_image
+  cached_network_image: ^3.4.1
+  # for localizations -> https://pub.dev/packages/easy_localization
+  easy_localization: ^3.0.7
+  equatable: ^2.0.7
+  mockito: ^5.4.4
+  firebase_auth_mocks: ^0.14.1
+  
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  very_good_analysis: ^6.0.0
+  flutter_gen_runner:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+  
+flutter_gen:
+  output:  lib/core/constants/generated/
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animations/
+    - assets/translations/
