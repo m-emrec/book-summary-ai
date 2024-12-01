@@ -87,6 +87,10 @@ class TextStyles {
   /// - `labelMedium`: A medium label style with the primary text color, medium
   ///   font weight, and a font size of 12.
   final TextTheme textTheme = TextTheme(
+    headlineLarge: _font(),
+    headlineMedium: _font(),
+    headlineSmall: _font(),
+
     titleLarge: _font(
       foreground: Paint()..color = AppColors.primaryTextColor,
     ),

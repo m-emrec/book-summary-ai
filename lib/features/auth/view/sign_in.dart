@@ -1,3 +1,5 @@
+import 'package:book_summary_ai/logger.dart';
+import 'package:firebase_vertexai/firebase_vertexai.dart';
 import 'package:flutter/material.dart';
 
 import '/core/constants/generated/assets.gen.dart';

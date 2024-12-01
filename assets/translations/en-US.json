@@ -95,5 +95,10 @@
             "sendResetLink": "Password reset email sent.\nPlease check your email address"
         }
     },
-    "home": {}
+    "home": {
+        "headline": "What Do You Want to Read Today?",
+        "evening": "Good Evening",
+        "morning": "Good Morning",
+        "afternoon": "Good Afternoon"
+    }
 }
